@@ -1,5 +1,7 @@
+-- Initial parameters
 declare @BetValue INT = 20
 declare @ParamForBet numeric(9,2) = -1
+
 --declare @ParamInterval numeric(9,2) = 0.01
 declare @ParamInterval numeric(9,2) = 0.02
 --declare @ParamInterval numeric(9,2) = 0.04
