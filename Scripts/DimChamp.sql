@@ -1,0 +1,22 @@
+USE [OlAP_Analysis]
+GO
+
+/****** Object:  Table [dbo].[DimChamp]    Script Date: 12/9/2013 2:46:41 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[DimChamp](
+	[ChampKey] [int] NOT NULL,
+	[ChampName] [nvarchar](500) NULL,
+ CONSTRAINT [PK_DimChamp] PRIMARY KEY CLUSTERED 
+(
+	[ChampKey] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+

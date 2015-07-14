@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "AnalyseBetHistory", "AnalyseBetHistory.dtproj", "{01834885-52D5-40B2-B1DF-4301A704CE33}"
+EndProject
+Global
+	GlobalSection(PowerDesigner) = preSolution
+		HasSWS = 1
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01834885-52D5-40B2-B1DF-4301A704CE33}.Development|Default.ActiveCfg = Development
+		{01834885-52D5-40B2-B1DF-4301A704CE33}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
