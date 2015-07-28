@@ -1,20 +1,22 @@
 
 update FactBet 
-set ChampKey = 19261
+set ChampKey = 27393
 where ChampKey in 
 (
-8807
+14010,
+14961
 )
 
 delete from DimChamp
 where ChampKey IN
 (
-8807
+14010,
+14961
 )
 
 select ChampKey, ChampName
 from DimChamp
---WHERE  ChampName LIKE N'%евротур%'
+WHERE  ChampName LIKE N'%Гран-при%'
 order by ChampName
 
 
